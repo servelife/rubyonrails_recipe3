@@ -28,6 +28,7 @@ config/database.yml
 *.log
 tmp
 tmp/**/*
+bundler_stubs/
 
 # Documentation
 doc/api
