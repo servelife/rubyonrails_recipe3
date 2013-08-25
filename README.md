@@ -8,7 +8,7 @@ we will be utilizing for future recipes. The recipe has the user leverage a basi
 then we will work to wire up the various pages where we can serve some general pages that most websites contain.
 
 Recipe includes:
- - install bootstrap-sass gem
+ - install bootstrap3 (css file only). Future: replace with boostrap-sass once compliant with bootstrap3
  - generate ExternalPages controller (index, contact, about)
  - modify routes.rb
  - build initial set of tests
