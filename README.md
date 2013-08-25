@@ -1,25 +1,47 @@
-Example resulting project of following recipe 2: Prepare to Develop (Ruby on Rails)
+ServeLife => Organizing the world to solve its greatest challenges
 
-Leverages heavily from the first part of chapter 3 of Michael Hartyl's Rails Tutorial (book.railstutorial.com)
-and builds upon the project from recipe 1.
+Recipe 3: Static Pages | Ruby on Rails
 
 Overview:
-Recipe 2 is quick but has several references that should be looked at to help come up to speed. The goal of this
-recipe is to prepare the environment for development. To this end, we install a testing framework that will help
-us follow Test Driven Development (TDD).
+Recipe 3 starts to get the user involved in Rails development. We begin developing the structure of a website that
+we will be utilizing for future recipes. The recipe has the user leverage a basic template provided by bootstrap and
+then we will work to wire up the various pages where we can serve some general pages that most websites contain.
 
-Recipe Includes:
- - update gem file with rspec-rails
- - install rspec (rails generate rspec:install)
- - update gem file with capybara
- - update gem file with selenium-webdriver
- - update secret_token.rb to be dynamically generated (http://ruby.railstutorial.org/chapters/static-pages#code-secret_token)
+Recipe includes:
+ - install bootstrap-sass gem
+ - generate ExternalPages controller (index, contact, about)
+ - modify routes.rb
+ - build initial set of tests
+ - update views with initial HTML
+ - deduplicate: build partials (header & footer)
+ - update application.html.erb, de-duplicate title & description
 
-References:
- - TDD:
-   http://en.wikipedia.org/wiki/Test-driven_development
+Reference Material:
+ - Ruby Language
+   http://www.ruby-lang.org/en/documentation/
+ - Ruby Coding Style Guide
+   https://github.com/bbatsov/ruby-style-guide
+ - Rails
+   http://api.rubyonrails.org/
+   http://guides.rubyonrails.org/
+   http://guides.rubyonrails.org/
+ - Rails Coding Style Guide
+   https://github.com/bbatsov/rails-style-guide
  - RSpec
    https://www.relishapp.com/rspec
    https://rubydoc.info/gems/rspec-rails/frames
  - Capybara
    https://github.com/jnicklas/capybara
+ - Sass (sass-lang.com)
+
+Resources Leveraged:
+ - Bootstrap (getbootstrap.com)
+ - RailsApps Project (http://railsapps.github.io)
+
+
+Credits:
+ - Leverages heavily from chapter 3 of Michael Hartyl's Rails Tutorial (book.railstutorial.com) and builds upon recipes 1 & 2.
+ - Leverages concepts from RailsApps Project (http://railsapps.github.io/)
+
+
+
