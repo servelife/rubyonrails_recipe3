@@ -10,9 +10,9 @@ then we will work to wire up the various pages where we can serve some general p
 Recipe includes:
  - install bootstrap3 (css file only). Future: replace with boostrap-sass once compliant with bootstrap3
  - generate ExternalPages controller (index, contact, about)
- - modify routes.rb
- - build initial set of tests
- - update views with initial HTML
+ - modify routes.rb to route requests to the new controller methods
+ - build initial set of tests (validate new views exist)
+ - update views with initial HTML (need to leverage bootstrap templates)
  - deduplicate: build partials (header & footer)
  - update application.html.erb, de-duplicate title & description
 
