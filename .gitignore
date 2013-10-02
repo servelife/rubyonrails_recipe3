@@ -1,0 +1,70 @@
+# Git Ignore File
+# Combined Rails, Ruby, Mac OSX, RubyMine & some of my own
+
+# -- Rails -- 
+
+# database related
+/config/database.yml
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# bundler config
+/.bundle
+
+# logfiles and tempfiles
+/log/*
+/tmp/*
+/spec/tmp/*
+
+# Test related
+/.rspec
+
+# Secret token file
+.secret
+
+/vendor/bundle
+/vendor/cache
+/public/system/*
+/coverage/
+**.orig
+rerun.txt
+
+
+# sass
+.sass-cache
+.sass-cache/*
+
+#rvm
+.rvmrc
+.rvmrc.*
+
+# documentation
+doc/api
+doc/app
+rdoc
+
+# -- Ruby --
+*.gem
+# *.rbc !duplicate
+lib/bundler/man
+pkg
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# -- MAC OSX --
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# -- RubyMine --
+.idea/*
