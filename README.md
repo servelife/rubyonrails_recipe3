@@ -1,28 +1,23 @@
-Example resulting project of following recipe 2: Prepare to Develop (Ruby on Rails)
+# ServeLife => Organizing the world to solve its greatest challenges
 
-Google doc reference: https://docs.google.com/document/d/13FJE7fkHCHH1bmCyGVR5hulm4hZe1fQbfMiUkBSDs0s/edit?usp=sharing
+Recipe 3: Serve a Basic Index Page | Ruby on Rails
 
-
-Leverages heavily from the first part of chapter 3 of Michael Hartyl's Rails Tutorial (book.railstutorial.com)
-and builds upon the project from recipe 1.
+Google Doc Reference: https://docs.google.com/document/d/1Mav8iDNBfs_vddpA_XrnpLqU1srDYSCpUcs-1mAIovg/edit?usp=sharing
 
 Overview:
-Recipe 2 is quick but has several references that should be looked at to help come up to speed. The goal of this
-recipe is to prepare the environment for development. To this end, we install a testing framework that will help
-us follow Test Driven Development (TDD).
+Recipe 3 starts to get the user involved in Rails development. We begin to develop the structure of a website that
+we will be utilizing for future recipes.
 
-Recipe Includes:
- - update gem file with rspec-rails
- - install rspec (rails generate rspec:install)
- - update gem file with capybara
- - update gem file with selenium-webdriver
- - update secret_token.rb to be dynamically generated (http://ruby.railstutorial.org/chapters/static-pages#code-secret_token)
+Objective:
+- Serve a basic index page
 
-References:
- - TDD:
-   http://en.wikipedia.org/wiki/Test-driven_development
- - RSpec
-   https://www.relishapp.com/rspec
-   https://rubydoc.info/gems/rspec-rails/frames
- - Capybara
-   https://github.com/jnicklas/capybara
+Key Results:
+- Generate a pages controller, its associated views & rspec test templates
+- 2 passing controller tests testing response and controller & action
+- 1 passing routing test testing root_path
+- The Rails generated index view is returned when localhost:3000 is browsed
+
+Topics Covered:
+- Rails Command Line: generate controller
+- RSpec: Controller & Routing tests
+- Routes
